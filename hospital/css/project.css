@@ -1,0 +1,56 @@
+dl,dt,dd,ul,li{position: relative;display:inline-block;font-size: 0;}
+/*知识专题*/
+/*.filter{padding-top:1.7rem;font-size: 0.7rem;line-height:0.7rem;width:50.2rem;height: 10.15rem;overflow: hidden;background-color: #fbfbfb;}*/
+.filter{padding-top:1.7rem;padding-bottom: 0.4rem;font-size: 0.7rem;line-height:0.7rem;width:50.2rem;overflow: hidden;background-color: #fbfbfb;}
+.filter dl{margin-bottom: 0.8rem;}
+.filter dt{position:absolute;margin-top:0.2rem;margin-left:0.9rem;padding-left:0.6rem;width:4.1rem;height:0.9rem;line-height: 0.9rem;font-size: 0.9rem;font-weight: 300;text-align: left;color: #323232;overflow: hidden;border-left: 0.2rem solid;}
+.filter dl:nth-child(odd) dt{ border-color:#3684f9;}
+.filter dl:nth-child(even) dt{ border-color: #fd4dff;}
+.filter ul{margin-left:6.25rem;width: 39.85rem;overflow: hidden;white-space: nowrap;text-overflow: ellipsis;}
+.filter ul li{margin-right:0.9rem;padding: 0.25rem 0.55rem;border-radius: 3px;border: solid 1px #d9d9d9;font-size: 0.7rem; color: #323232;cursor: pointer; }
+
+/*筛选内容*/
+.filter-info ul{padding-bottom:2.25rem;}
+.filter-info ul li{margin-top: 1rem;}
+.filter-info div{display: inline-block;width:36.05rem;height:7.5rem;overflow: hidden;}
+.filter-info img{margin-left:0.5rem;margin-right:1.15rem;width:10rem;height:7.5rem;}
+.filter-info div p{font-size: 0.6rem;color: #646464;width:36.05rem;}
+.filter-info .filter-info-title{margin:1.15rem 0rem 0.9rem;font-size: 0.9rem; color: #323232;}
+.filter-info .filter-info-time{margin-right:1.15rem;}
+.filter-info .filter-info-title,.filter-info div p:nth-child(2){overflow: hidden;text-overflow: ellipsis;white-space: nowrap;}/**/
+.filter-info .filter-info-content{margin-top:0.75rem;width:36.05rem;line-height:1rem;font-size: 0.7rem;display: -webkit-box;-webkit-line-clamp: 2;-webkit-box-orient: vertical;}
+
+/*知识专题页面*/
+.project-filter-info ul{padding-bottom:0rem;padding-top: 0.5rem;}
+.filter-info .project-filter-info-type{position: relative;padding-top:2.1rem;width: 50.1rem;height: 2.1rem;border-bottom: 1px solid #d8d8d8;}
+.filter-info .project-filter-info-type img{    height: 1.25rem;width: 3.6rem;}
+.filter-info .project-filter-info-type .more{position:relative;float:right;margin-right: 0.5rem;width:2.8rem;height:1rem;line-height:1rem;text-align:center;font-size:0.6rem;border-radius: 3px; border: 1px solid #f4f4f4;cursor: pointer;}
+
+/*医院医生页面*/
+.project-filter-box{padding-bottom: 0.7rem;}
+.hospital-filter-info ul{padding-top:1.4rem;padding-bottom:1.85rem;}
+.hospital-filter-info ul li{margin: 0rem 0rem 1rem 0rem;}
+.hospital-info{width: 30rem;overflow: hidden;}
+.hospital-filter-info .hospital-info-title span{margin:1rem 0.7rem 0rem 0rem;font-size: 0.9rem; color: #323232;}
+.hospital-filter-info .hospital-info-title{display:inline-block;font-size: 0.6rem;color: #646464;}
+.hospital-filter-info .hospital-info-type span{display:inline-block;padding: 0.15rem 0.2rem;border: solid 1px #d9d9d9;border-radius: 3px;}
+.hospital-filter-info .hospital-info-doctor{margin: 0.75rem 0rem 0.4rem;}
+.hospital-filter-info .hospital-info-doctor span{margin-left:0.5rem;display:inline-block;}
+.hospital-filter-info .hospital-info-addr, .hospital-filter-info p.hospital-info-doctor,.hospital-filter-info .hospital-info-type{width: 30rem;overflow: hidden;text-overflow: ellipsis;white-space: nowrap;}
+
+/*右浮动*/
+.hospital-filter-info .hospital-doctor-float {position:absolute;right:0rem;top:8.6rem;width: 219px;overflow: inherit;}
+.hospital-doctor-float dl{border:1px solid  #d9d9d9;border-radius: 3px;}
+.hospital-doctor-float ul{padding:0rem; }
+.hospital-doctor-float ul li{display: block;padding: 0.5rem 0rem;margin: 0px;}
+.hospital-doctor-float dt{padding-left:0.55rem;display:block;height:1.7rem;line-height:1.7rem;font-size:0.8rem;color: #323232;background-color: #fbfbfb;border-top-left-radius: 3px;border-top-right-radius: 3px;}
+.hospital-doctor-float img{margin-left: 0.35rem;margin-right:0.5rem;width: 3rem;height: 3rem;border-radius:50%;border: solid 1px #d9d9d9;box-sizing: border-box;}
+.hospital-doctor-float .hospital-doctor-info{display:inline-block;width: 6.7rem;height: 3rem;font-size: 0.5rem;}
+.hospital-doctor-float .hospital-doctor-info p{font-size: 0.5rem;}
+.hospital-doctor-info .hospital-doctor-info-name span:nth-child(1){font-size:0.8rem;color: #323232;}
+.hospital-doctor-info .hospital-doctor-info-name span:nth-child(2){display:inline-block;margin-top: 0.3rem;margin-left:0.2rem;font-size:0.6rem;color: #323232;}
+.hospital-doctor-float .hospital-doctor-info p{line-height: 0.8rem;width: 6.7rem;overflow: hidden;text-overflow: ellipsis;white-space: nowrap;}
+.hospital-doctor-info-school{margin: 0.1rem auto 0.05rem;}
+
+/*高亮*/
+.hospital-info .hospital-info-title .filter-info-title:hover{color:#646464; }

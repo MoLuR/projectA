@@ -1,0 +1,29 @@
+.self-testing{margin:1.55rem auto 2.2rem; border: solid 1px #d9d9d9; }
+.self-testing-title{text-align: center;font-size:0.9rem;line-height:1.6rem;background-color: #f5f5f5;border: solid 1px #f4f4f4;}
+.principle{margin-bottom:1.3rem;height:100%;color: #646464;font-size: 0.7rem;line-height: 1.15rem; text-align: justify;}
+.principle-title{margin-bottom:0.6rem;font-size: 0.8rem;color: #323232;}
+.input-days{padding: 3rem 1.35rem 1.35rem;}
+.input-days ul{font-size: 0px;position: relative;}
+.input-days ul li{display: inline-block;font-size: 0.8rem;}
+.input-days li p span{font-size: 0.7rem;color: #646464;}
+.input-num {margin: 0rem 4.35rem;}
+.input-days ul li p input{margin-top:0.7rem;padding-right: 18px;width: 11rem;height:1.6rem; border: solid 1px #979797; text-align: center;font-size:1.1rem;}
+.radio-text{position:relative;margin-top: 2rem;margin-bottom: 2.2rem;height:2.64rem; }
+.radio-text p{font-size:0.8rem;}
+.radio-text .input-choose span{margin-right: 1.35rem;}
+.radio-text .input-choose{margin-top:0.8rem; }
+.radio-text .count{position: absolute;bottom:0.4rem;left:21rem;right: 21rem;padding: 0.45rem 1.45rem; color: #6031ba;border: 1px solid #6031ba;border-radius: 2.45rem;text-align: center;cursor: pointer; }
+.output{height: 5.15rem;display: none;}
+.output .output-data,.output p{font-size:0.8rem;}
+.output .output-explain span{font-size:0.6rem;color: #646464;}
+.output .output-data span{font-weight: 500;font-size: 1.3rem;}
+.output .output-data{margin:0.95rem 0rem 0.85rem; }
+.output-oviposit-period {margin: 0px auto;display: table;}
+.principle-box{padding-bottom: 1.1rem;}
+.dayData-before,.dayData-after{display: inline-block;}
+input::-webkit-input-placeholder{color:#cccccc;}
+input::-moz-placeholder{color:#cccccc;}
+input:-moz-placeholder{color:#cccccc;}
+
+/*日历*/
+.laydate_body .laydate_bottom .laydate_btn a,div#laydate_ms ,ul#laydate_ys  {font-size: 12px;}

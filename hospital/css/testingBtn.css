@@ -1,0 +1,14 @@
+*{margin: 0px;padding: 0px;}
+.content{color: #323232;}
+.image-btn{position: relative;padding:0rem;height: 6.6rem;overflow: hidden;text-align: center;}
+.image-btn .image-single:nth-child(2){margin:0rem 1.05rem;}
+.image-single{position:relative;display:inline-block;width: 16rem;height: 6.6rem;}
+.image-btn img{width: 16rem;height: 6.6rem;}
+.image-btn p{position: absolute;top: 31px;right: 20px;text-align: -webkit-right;}
+.image-btn span{display: table;}
+.image-btn p span:nth-child(1){margin-bottom:1.4rem;font-size: 1rem; letter-spacing:0.04rem;}
+.image-btn p span:nth-child(2){padding:0.25rem 0.75rem;font-size: 0.6rem; border-radius: 1.15rem;background-color: rgba(255, 255, 255, 0.6);border: solid 1px #979797;cursor: pointer;}
+.content .image-btn .image-single .btn-click{background-color:#6031ba;color:white;border-color:#6031ba;}
+.image-btn .image-single .btn-click-not{background-color: rgba(255, 255, 255, 0.6);border: solid 1px #979797; color: #323232;}
+/*高亮*/
+.image-btn .image-single  .hov{color:rgb(96, 49, 186);border-color: rgb(96, 49, 186);}

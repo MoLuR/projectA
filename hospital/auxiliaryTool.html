@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>辅助工具</title>
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/testingBtn.css">
+    <link rel="stylesheet" href="css/auxiliaryTool.css">
+</head>
+<body>
+<header></header>
+<div class="content">
+    <div class="image-btn"></div>
+    <div class="self-testing">
+        <p class="self-testing-title"></p>
+        <div class="input-days">
+            <ul>
+                <li>
+                    <p>* 末次月经的第一天</p>
+                    <p><input class="laydate-icon data-day" id="demo"  placeholder="" value=""></p>
+                    <div id="date-box" style="position: absolute;top: 75px;z-index: 20;"></div>
+                </li>
+                <li class="input-num">
+                    <p class="">* 月经平均周期 <span>默认28天</span></p>
+                    <p><input class="data-menstruation " placeholder="28" type="number" min="1" max="31"> 天</p>
+                </li>
+                <li>
+                    <p>* 黄体激素平均周期   <span>默认14天</span> </p>
+                    <p><input class="data-Progesterone" placeholder="14" type="number" min="1" max="50"> 天</p>
+                </li>
+            </ul>
+            <div class="radio-text">
+                <p class="output-due-date">* 每次月经周期的天数是否相同？</p>
+                <p class="input-choose output-due-date"><span><input type="radio" name="same" > 基本相同</span> <span><input type="radio" name="same" checked="checked"> 不太一样</span></p>
+                <p class="count">计算</p>
+            </div>
+            <div class="output">
+                <div class="output-due-date ">
+                    <p class="output-explain">本次排卵日期：<span>(这段时间都有排卵的可能)</span></p>
+                    <div class="output-data output-due-date-time">
+                        <p class="dayData-before"><span>2017 </span>年<span> 11 </span>月 <span> 21 </span>日  </p> —— <p  class="dayData-after"><span>2017 </span>年<span> 11 </span>月<span> 21 </span>日</p>
+                    </div>
+                    <p>准确的排卵日请配合基础体温、试纸确定， 建议开始使用排卵试纸 / LH优生试纸的日期</p>
+                </div>
+                <div class="output-oviposit-period oviposit-period" >
+                    <p>预产期：</p>
+                    <p class="output-data oviposit-period-data "><span>2017 </span>年<span> 11 </span>月 <span> 21 </span>日</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="principle-box">
+        <div class="principle output-due-date ">
+            <p class="principle-title">* 排卵期计算原理</p>
+            <p>女性的排卵日期一般在下次月经来潮前的14天左右。下次月经来潮的第1天算起，倒数14天或减去14天就是排卵日，排卵日及其前5天和后4天加在一起称为排卵期。例如，某女的月经周期为28天，本次月经来潮的第1天在12月2日，那么下次月经来潮是在12月30日（12月2日加28天），再从12月30日减去14天，则12月16日就是排卵日。排卵日及其前5天和后4天，也就是12月11-20日为排卵期。除了月经期和排卵期，其余的时间均为安全期。在安全期性交可不必采用任何避孕药物和避孕工具。</p>
+            <p>女性的排卵日期因个人体质变异差异极大，因此仅供参考。</p>
+        </div>
+        <div class="principle output-due-date">
+            <p class="principle-title">* 安全期计算原理</p>
+            <p>女性的排卵日期一般在下次月经来潮前的14天左右。下次月经来潮的第1天算起，倒数14天或减去14天就是排卵日，排卵日及其前5天和后4天加在一起称为排卵期。</p>
+            <p>例如，某女的月经周期为28天，本次月经来潮的第1天在12月2日，那么下次月经来潮是在12月30日（12月2日加28天），再从12月30日减去14天，则12月16日就是排卵日。排卵日及其前5天和后4天，也就是12月11-20日为排卵期。除了月经期和排卵期，其余的时间均为安全期。在安全期性交可不必采用任何避孕药物和避孕工具。</p>
+            <p>安全期月历因个人体质变异差异极大，因此仅供参考。 欲避孕者，请採取安全之避孕方式； 欲怀孕者，也还请多多努力。</p>
+        </div>
+        <div class="principle oviposit-period">
+            <p class="principle-title">* 预产期计算原理</p>
+            <p>整个孕期约为40周，即9个月零7天左右，通过末次月经时间可以推算预产期。推算方法是按末次月经时间的第一日算起，月份减3或加9，日数加7。但是实际分娩日期与推算的预产期可能会相差1～2周，如果孕妇的末次月经日期记忆不清或月经不准，就需要医生代为测算预产期。</p>
+            <p>本算法算法是以28天的月经周期为计算基础，因此必须选择个人月经周期长短加以修正。</p>
+            <p>注意：只有约 5% 的孕妇会刚好在预产期那天分娩。本工具的计算结果仅供参考，如有更多需求请咨询播种网医生。</p>
+        </div>
+    </div>
+
+</div>
+<footer></footer>
+<script src="js/jquery-1.10.2.min.js"></script>
+<script src="js/common.js"></script>
+<script src="js/laydate.js"></script>
+<script src="js/testingBtn.js"></script>
+<script src="js/auxiliaryTool.js"></script>
+<script type="text/javascript">
+
+    !function () {
+
+        laydate.skin('molv');//切换皮肤，请查看skins下面皮肤库
+//        alert(laydate.now(+22-1));
+
+        $('.laydate-icon').attr("placeholder", laydate.now());
+        laydate({elem: '#demo'});//绑定元素
+
+    }();
+
+</script>
+
+</body>
+</html>

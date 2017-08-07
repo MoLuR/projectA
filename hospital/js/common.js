@@ -45,18 +45,18 @@ var headerHtml=function () {
         '</div>'+
         '<div class="header-list">'+
         '<ul>'+
-        // '<li><a href="./index.html">首页</a><span></span></li>'+
-        // '<li><a href="./project.html">知识专题</a><span></span></li>'+
-        // '<li><a href="./hospital.html">医院医生</a><span></span></li>'+
-        // '<li><a href="./auxiliaryTool.html">辅助工具</a><span></span></li>'+
+        '<li><a href="./index.html">首页</a><span></span></li>'+
+        '<li><a href="./project.html">知识专题</a><span></span></li>'+
+        '<li><a href="./hospital.html">医院医生</a><span></span></li>'+
+        '<li><a href="./auxiliaryTool.html">辅助工具</a><span></span></li>'+
         // '<li><a href="./index.html"><img src="./images/invalid-index.png" srcset="./images/invalid-index@2x.png 2x,./images/invalid-index@3x.png 3x" alt=""></a><span></span></li>'+
         // '<li><a href="./project.html"><img src="./images/invalid-nal.png" srcset="./images/invalid-nal@2x.png 2x,./images/invalid-nal@3x.png 3x"</a><span></span></li>'+
         // '<li><a href="./hospital.html"><img src="./images/invalid-doc.png" srcset="./images/invalid-doc@2x.png 2x,./images/invalid-doc@3x.png 3x"</a><span></span></li>'+
         // '<li><a href="./auxiliaryTool.html"><img src="./images/invalid-tool.png" srcset="./images/invalid-tool@2x.png 2x,./images/invalid-tool@3x.png 3x"</a><span></span></li>'+
-        '<li><a href="./index.html"><img src="./images/invalid-index.png"  alt=""></a><span></span></li>'+
-        '<li><a href="./project.html"><img src="./images/invalid-nal.png" </a><span></span></li>'+
-        '<li><a href="./hospital.html"><img src="./images/invalid-doc.png" </a><span></span></li>'+
-        '<li><a href="./auxiliaryTool.html"><img src="./images/invalid-tool.png" </a><span></span></li>'+
+        // '<li><a href="./index.html"><img src="./images/invalid-index.png"  alt=""></a><span></span></li>'+
+        // '<li><a href="./project.html"><img src="./images/invalid-nal.png" </a><span></span></li>'+
+        // '<li><a href="./hospital.html"><img src="./images/invalid-doc.png" </a><span></span></li>'+
+        // '<li><a href="./auxiliaryTool.html"><img src="./images/invalid-tool.png" </a><span></span></li>'+
         '</ul>'+
         '</div>'+
         '</div>';

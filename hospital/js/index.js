@@ -2,7 +2,7 @@
  * Created by sawyer on 2017-07-19.
  */
 $(function () {
-    $('.header-list ul li:first-child a').css('color','#ff3688');
+    // $('.header-list ul li:first-child a').css('color','#ff3688');
     //轮播
     var mySwiper = new Swiper('.swiper-container', {
         pagination: '.swiper-pagination',

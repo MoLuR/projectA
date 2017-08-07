@@ -22,7 +22,7 @@ $(function () {
             mediafixed.css({'position':'fixed','top':'20px'});
         } else
         {
-            mediafixed.css({'position':'relative','top':'0rem'});
+            mediafixed.css({'position':'relative','top':'1.6rem'});
         }
     });
 })

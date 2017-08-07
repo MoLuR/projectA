@@ -35,6 +35,6 @@
 .pregnancy .pregnancy-info li{margin:0.25rem 0rem 0.25rem 0.8rem;width: 23.9rem;height: 4.5rem;display: inline-block; }
 .pregnancy .pregnancy-info li img{float:left;width: 6rem;height: 4.5rem;}
 .pregnancy .pregnancy-info li p{margin-left:6.5rem;}
-.pregnancy .pregnancy-info li p span{width: 17.3rem;display:block; font-family: STHeitiSC, '黑体简';color: #323232;}
+.pregnancy .pregnancy-info li p span{width: 17.3rem;display:block; font-family: STHeitiSC-Light;color: #323232;}
 .pregnancy .pregnancy-info li p span:first-child{ padding:0.55rem 0rem 0.5rem;overflow: hidden;text-overflow: ellipsis;white-space: nowrap;font-size: 0.8rem;font-weight: 500;color: #323232;}
 .pregnancy .pregnancy-info li p span:last-child{font-size: 0.6rem;font-weight: 300;line-height: 1.1rem;letter-spacing: 0.04rem;overflow: hidden;display: -webkit-box;-webkit-line-clamp: 2;-webkit-box-orient: vertical;word-break: break-all;}

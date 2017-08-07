@@ -15,7 +15,8 @@ $(function () {
         $(this).removeClass("hov");
     });
     $('.click-btn').click(function () {
-        $(".output").css({"display":"block"});
+        $(".output").css({"display":"none"});
+        $(".count").removeClass("countBtn");
         $('.click-btn').removeClass("btn-click").addClass("btn-click-not");
         $(this).removeClass("btn-click-not").addClass("btn-click");
         $("input").val("");
@@ -37,24 +38,30 @@ $(function () {
         var dataDay=$(".data-day").val();   //月经日期
         if(dataDay.length==0)
         {
-            dataDay=$(".data-day").attr("placeholder");
-            $(".data-day").val(dataDay);
-        }
-        var arr=dataDay.split("-");
-        var year=arr[0];
-        var month=arr[1];
-        var day=arr[2];
-        if(dataMenstruation.length==0)
-        {
-            dataMenstruation=$(".data-menstruation").attr("placeholder");
-            $(".data-menstruation").val(dataMenstruation);
-            console.log(dataMenstruation);
-            clickType(countType,dataDay,year,month,day,dataMenstruation);
+            // dataDay=$(".data-day").attr("placeholder");
+            // $(".data-day").val(dataDay);
+            alert("请选择日期~");
         }else
         {
-            clickType(countType,dataDay,year,month,day,dataMenstruation);
+            $(".output").css({"display":"block"});
+            $(this).addClass("countBtn");
+            var arr=dataDay.split("-");
+            var year=arr[0];
+            var month=arr[1];
+            var day=arr[2];
+            if(dataMenstruation.length==0)
+            {
+                dataMenstruation=$(".data-menstruation").attr("placeholder");
+                $(".data-menstruation").val(dataMenstruation);
+                console.log(dataMenstruation);
+                clickType(countType,dataDay,year,month,day,dataMenstruation);
+            }else
+            {
+                clickType(countType,dataDay,year,month,day,dataMenstruation);
+            }
+            // console.log(dataMenstruation+":::::"+dataDay);
         }
-        // console.log(dataMenstruation+":::::"+dataDay);
+
 
     })
 });
